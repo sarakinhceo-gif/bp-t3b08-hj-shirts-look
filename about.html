@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-acid-yellow">
+    <title>합정 셔츠룸 룩북 | 정보 – 프리미엄 비즈니스 셔츠의 모든 것</title>
+    <meta name="description" content="합정 셔츠룸 룩북 상세 정보. 6년 데이터 기반 핏 분석, 47종 엄선 원단, 3단계 룩북 시스템. 프리미엄 셔츠의 모든 것을 확인하세요. 010-6279-0862">
+    <meta name="keywords" content="합정 셔츠룸, 합정 셔츠룸 룩북, 셔츠 정보, 프리미엄 셔츠 원단, 셔츠 핏 가이드, 비즈니스 셔츠 사이즈">
+    <link rel="canonical" href="https://t3b08-hj-shirts-look.vercel.app/info">
+    <meta property="og:title" content="합정 셔츠룸 룩북 | 정보 – 6년 데이터로 증명하는 셔츠의 정석">
+    <meta property="og:description" content="합정 셔츠룸 룩북 정보 페이지. 체계적인 룩북 시스템과 데이터 기반 핏 분석으로 완성하는 프리미엄 셔츠 경험의 모든 것.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b08-hj-shirts-look.vercel.app/info">
+    <meta property="og:image" content="https://t3b08-hj-shirts-look.vercel.app/og-info.jpg">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 16px;
+            line-height: 1.6;
+            -webkit-text-size-adjust: 100%;
+        }
+        body {
+            font-family: 'Courier New', 'Malgun Gothic', monospace, sans-serif;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Arial Black', 'Impact', sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #f5e642;
+            margin-bottom: 1.2rem;
+        }
+        h1 {
+            font-size: clamp(2.2rem, 6vw, 4rem);
+            line-height: 1.05;
+            border-bottom: 6px solid #f5e642;
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        h2 {
+            font-size: clamp(1.6rem, 4vw, 2.6rem);
+            border-left: 8px solid #f5e642;
+            padding-left: 1rem;
+            margin-top: 3rem;
+        }
+        h3 {
+            font-size: clamp(1.3rem, 3vw, 1.8rem);
+            margin-top: 2rem;
+        }
+        p, li, blockquote {
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            color: #d0d0d0;
+        }
+        a {
+            color: #f5e642;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s;
+        }
+        a:hover {
+            border-bottom-color: #f5e642;
+        }
+        strong, b {
+            color: #ffffff;
+            font-weight: 700;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        section, header, footer {
+            width: 100%;
+            padding: 3rem 0;
+            border-bottom: 1px solid #333;
+        }
+        header {
+            background: #111;
+            border-bottom: 4px solid #f5e642;
+            padding: 1.5rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        nav .logo {
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: #f5e642;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        nav .logo a {
+            border-bottom: none;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        nav ul li a {
+            font-size: 0.9rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 0.3rem 0;
+            border-bottom: 2px solid transparent;
+        }
+        nav ul li a:hover {
+            border-bottom-color: #f5e642;
+        }
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+            padding: 5px;
+        }
+        .hamburger span {
+            width: 28px;
+            height: 3px;
+            background: #f5e642;
+            display: block;
+        }
+        .tel-link {
+            display: inline-block;
+            background: #f5e642;
+            color: #1a1a1a;
+            font-weight: 900;
+            padding: 0.5rem 1.5rem;
+            border: none;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: background 0.2s;
+        }
+        .tel-link:hover {
+            background: #fff;
+            color: #1a1a1a;
+            border-bottom: none;
+        }
+        .hero {
+            background: #111;
+            padding: 5rem 0;
+            border-bottom: 4px solid #f5e642;
+        }
+        .hero h1 {
+            border-bottom: none;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: clamp(1rem, 2vw, 1.3rem);
+            max-width: 800px;
+            margin-bottom: 2rem;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 3rem 0;
+        }
+        .stat-card {
+            background: #222;
+            border: 2px solid #333;
+            padding: 2rem 1.5rem;
+            text-align: center;
+        }
+        .stat-card .number {
+            font-size: 3rem;
+            font-weight: 900;
+            color: #f5e642;
+            display: block;
+            line-height: 1;
+        }
+        .stat-card .label {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 0.5rem;
+            color: #aaa;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .info-card {
+            background: #1e1e1e;
+            border: 1px solid #333;
+            padding: 2rem;
+        }
+        .info-card h3 {
+            margin-top: 0;
+            font-size: 1.2rem;
+        }
+        .info-card p {
+            font-size: 0.95rem;
+        }
+        .faq-item {
+            border-bottom: 1px solid #333;
+            padding: 1.5rem 0;
+        }
+        .faq-item h3 {
+            font-size: 1.1rem;
+            margin: 0 0 0.5rem 0;
+            color: #f5e642;
+            cursor: pointer;
+        }
+        .faq-item p {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+        footer {
+            background: #111;
+            border-top: 4px solid #f5e642;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        footer p {
+            font-size: 0.85rem;
+            color: #777;
+            margin: 0.3rem 0;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                gap: 0.5rem;
+                padding: 1rem 0;
+            }
+            nav ul.active {
+                display: flex;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .container {
+                padding: 0 1rem;
+            }
+            section, header, footer {
+                padding: 2rem 0;
+            }
+            .hero {
+                padding: 3rem 0;
+            }
+            .stat-card .number {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo"><a href="/">합정 셔츠룸</a></div>
+                <div class="hamburger" onclick="document.querySelector('nav ul').classList.toggle('active')">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul>
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/lookbook">룩북</a></li>
+                    <li><a href="/info">정보</a></li>
+                    <li><a href="/system">시스템</a></li>
+                    <li><a href="/contact">문의</a></li>
+                    <li><a href="tel:01062790862" class="tel-link">010-6279-0862</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>정보</h1>
+            <p>6년간 12,000건 이상의 핏 데이터와 47종 엄선 원단으로 검증된 합정 셔츠룸 룩북의 모든 것. 비즈니스 셔츠에 대한 체계적인 접근과 데이터 기반 의사결정이 어떻게 프리미엄 경험을 창출하는지 확인하세요.</p>
+            <a href="tel:01062790862" class="tel-link">지금 상담 010-6279-0862</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>데이터로 증명하는 핏의 정석</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="number">6</span>
+                    <span class="label">년 누적 데이터</span>
+                </div>
+                <div class="stat-card">
+                    <span class="number">12,000+</span>
+                    <span class="label">핏 분석 건수</span>
+                </div>
+                <div class="stat-card">
+                    <span class="number">47</span>
+                    <span class="label">엄선 원단 종류</span>
+                </div>
+                <div class="stat-card">
+                    <span class="number">98.7%</span>
+                    <span class="label">만족도 비율</span>
+                </div>
+            </div>
+            <p>합정 셔츠룸 룩북은 단순한 셔츠 소개를 넘어, <strong>체계적인 데이터 수집과 분석</strong>을 통해 완성됩니다. 매달 200건 이상의 새로운 핏 데이터가 업데이트되며, 이를 기반으로 원단 선택, 패턴 설계, 최종 피팅까지 3단계 검증 프로세스를 거칩니다. 2024년 기준, 고객 재구매율은 73%에 달하며, 이는 업계 평균을 크게 상회하는 수치입니다.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>룩북 시스템의 3단계 구조</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>1단계: 원단 큐레이션</h3>
+                    <p>이탈리아, 일본, 국내 3개국 12개 밀에서 공급받는 47종 원단을 <strong>밀도, 촉감, 광택, 드레이프성</strong> 기준으로 5등급 분류. 각 원단의 통기성, 구김 저항성, 세탁 내구성을 실험실 테스트로 검증합니다.</p>
+                </div>
+                <div class="info-card">
+                    <h3>2단계: 데이터 핏 분석</h3>
+                    <p>키, 체중, 어깨 너비, 가슴 둘레 등 14개 신체 계측 데이터를 기반으로 <strong>개인 맞춤 패턴</strong>을 생성. 6년간 축적된 12,000건 이상의 데이터베이스와 매칭하여 최적의 핏을 도출합니다.</p>
+                </div>
+                <div class="info-card">
+                    <h3>3단계: 최종 피팅 검증</h3>
+                    <p>완성된 셔츠는 8개 포인트(어깨, 소매, 가슴, 허리, 밑단, 칼라, 커프스, 백)에서 <strong>0.5cm 단위</strong>로 정밀 측정 후 고객 피팅. 필요 시 1차 수정을 무상 제공합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>원단 스펙 & 관리 가이드</h2>
+            <p>모든 원단은 <strong>면 100% 이집트 기가(Giza) 롱스테이플</strong> 또는 <strong>면-폴리 혼방(최대 20% 폴리)</strong>으로 구성되며, 실 두께는 80수에서 200수까지 다양합니다. 100수 이상 원단은 실크와 유사한 광택과 부드러움을 제공하며, 120수 이상은 비즈니스 미팅 및 특별 자리용으로 권장합니다.</p>
+            <p><strong>세탁 권장사항:</strong> 30도 이하 찬물 단독 세탁, 표백제 사용 금지, 건조기 사용 자제, 다림질은 중온(150도)에서 스팀 사용. 120수 이상 원단은 드라이클리닝을 권장합니다. 이를 준수할 경우 셔츠의 수명은 평균 3-5년으로 연장됩니다.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>자주 묻는 질문</h2>
+            <div class="faq-item">
+                <h3>맞춤 셔츠와 기성 셔츠의 차이는 무엇인가요?</h3>
+                <p>기성 셔츠는 평균 체형 기준 4-6개 사이즈로 생산되지만, 맞춤 셔츠는 개인 14개 신체 계측 데이터를 반영합니다. 합정 셔츠룸 룩북의 데이터 분석 결과, 동일 키와 체중이라도 어깨 폭과 허리 둘레에서 최대 8cm 차이가 발생하며, 이는 착용감과 실루엣에 직접적인 영향을 미칩니다.</p>
+            </div>
+            <div class="faq-item">
+                <h3>첫 주문부터 완성까지 얼마나 걸리나요?</h3>
+                <p>평균 소요 기간은 <strong>영업일 기준 7-10일</strong>입니다. 원단 선택 및 계측(1일), 패턴 설계(2일), 재단 및 봉제(4-5일), 최종 검수 및 배송(1-2일)로 구성됩니다. 긴급 주문 시 5일 이내 완성도 가능하며, 추가 비용은 없습니다.</p>
+            </div>
+            <div class="faq-item">
+                <h3>원단 샘플을 미리 볼 수 있나요?</h3>
+                <p>네, 합정 쇼룸에서 47종 전체 원단 샘플을 직접 확인하실 수 있습니다. 방문 전 예약 시 원하시는 스타일과 용도에 맞춰 <strong>큐레이터가 5-7종을 선별</strong>해 준비해 드립니다. 온라인으로도 3종까지 샘플을 무료로 보내드립니다.</p>
+            </div>
+            <div class="faq-item">
+                <h3>사이즈 교
+</body>
+</html>
